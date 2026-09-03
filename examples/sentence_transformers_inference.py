@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Minimal WeMM-Embedding inference with Sentence Transformers."""
 
+import utils.transport
+import utils.session
 import argparse
 
 from sentence_transformers import SentenceTransformer
